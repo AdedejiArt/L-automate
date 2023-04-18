@@ -1,0 +1,26 @@
+{
+  "name": "l-automates",
+  "version": "1.0.0",
+  "description": "An automation tool for lawyers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "in-house",
+    "lawyers"
+  ],
+  "author": "Adio Adedeji Roheem",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.13.0",
+    "@slack/web-api": "^6.8.1",
+    "asana": "^1.0.2",
+    "dotenv": "^16.0.3",
+    "ngrok": "^4.3.3",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22",
+    "request": "^2.88.2",
+    "requests": "^0.3.0"
+  }
+}
